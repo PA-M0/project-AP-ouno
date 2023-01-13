@@ -1,13 +1,7 @@
-public class WildCard implements Cards{
+public class WildCard extends Cards{
 
-    private String type;
-
-    public WildCard(String type) {
-        this.type = type;
-    }
-
-    public String getColor() {
-        return color;
+    public WildCard(String color, String type) {
+        super(color, type);
     }
 
 }
